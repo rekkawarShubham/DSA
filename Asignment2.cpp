@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : array.cpp
+// Name        : matrix.cpp
 // Author      : Shubham Rekkawar
 // Version     :
 // Copyright   : Your copyright notice
