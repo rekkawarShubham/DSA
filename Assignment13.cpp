@@ -1,9 +1,4 @@
-/*
- * q_sort.cpp
- *
- *  Created on: Sep 29, 2017
- *      Author: pict
- */
+
 #include <iostream>
 using namespace std;
 #define MAX 20
@@ -16,13 +11,11 @@ public:
 
 	void accept();
 	void display();
-	void quick_sort(int marks[],int lb,int ub);
-	int partiton(int marks[],int lb,int ub);
 	void topfive();
 	void quick();
-
+	void quick_sort(int marks[],int lb,int ub);
+	int  partiton(int marks[],int lb,int ub);
 };
-
 
 void sorting::accept()
 	{
@@ -35,39 +28,6 @@ void sorting::accept()
 		quick_sort(marks,0,n-1);
 
 	}
-
-
-void sorting::display()
-	{
-		cout<<"The entered marks are:"<<endl;
-		for(int i=0;i<n;i++)
-			cout<<marks[i]<<" ";
-		cout<<endl;
-
-	}
-
-
-void sorting::topfive()
-
-{
-	cout<<"Top five scores are:"<<endl;
-	for(int i=n-1;i>=(n-5);i--)
-		{
-			cout<<marks[i]<<" ";
-		}
-}
-
-void sorting::quick_sort(int marks[],int i,int j)
-{
-	if(i>=j)
-		return;
-
-	int p=partiton(marks,i,j);
-
-	quick_sort(marks,i,p-1);
-
-	quick_sort(marks,p+1,j);
-}
 
 int sorting::partiton(int marks[],int lb,int ub)
 {
@@ -88,19 +48,45 @@ int sorting::partiton(int marks[],int lb,int ub)
 
 			if (up < down)
 			{
-				//if(marks[up]>marks[down])
-				//{
 					int t= marks[up];
 					marks[up]=marks[down];
 					marks[down]=t;
-				//}
-
 			}
 		}
 		marks[lb] = marks[down];
 		marks[down] = pivot;
 		return down;
 }
+void sorting::quick_sort(int marks[],int i,int j)
+{
+	if(i>=j)
+		return;
+
+	int p=partiton(marks,i,j);
+
+	quick_sort(marks,i,p-1);
+
+	quick_sort(marks,p+1,j);
+}
+
+void sorting::topfive()
+{
+	cout<<"Top five scores are:"<<endl;
+	for(int i=n-1;i>=(n-5);i--)
+		{
+			cout<<marks[i]<<" ";
+		}
+}
+
+void sorting::display()
+	{
+		cout<<"The entered marks are:"<<endl;
+		for(int i=0;i<n;i++)
+			cout<<marks[i]<<" ";
+		cout<<endl;
+
+	}
+
 
 
 int main()
