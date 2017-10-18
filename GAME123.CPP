@@ -1,3 +1,10 @@
+//============================================================================
+// Name        : pro.cpp
+// Author      : Shubham Rekkawar ,surya ,sai ,shadab
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
 #include<iostream.h>
 #include<conio.h>
 #include<graphics.h>
