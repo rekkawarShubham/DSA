@@ -1,9 +1,10 @@
-/*
- * sort.cpp
- *
- *  Created on: Sep 27, 2017
- *      Author: pict
- */
+//============================================================================
+// Name        : Bub_select.cpp
+// Author      : Shubham Rekkawar
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
 #include<iostream>
 using namespace std;
 class sort
