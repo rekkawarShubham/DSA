@@ -1,3 +1,11 @@
+//============================================================================
+// Name        : stack1.cpp
+// Author      : Shubham Rekkawar
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
 #include <iostream>
 #include<ctype.h>
 using namespace std;
