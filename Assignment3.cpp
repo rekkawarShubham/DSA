@@ -1,6 +1,6 @@
 //============================================================================
 // Name        : poly.cpp
-// Author      : 
+// Author      : Shubham Rekkawar
 // Version     :
 // Copyright   : Your copyright notice
 // Description : Hello World in C++, Ansi-style
