@@ -1,9 +1,10 @@
-/*
- * ass9.cpp
- *
- *  Created on: Jul 21, 2017
- *      Author: pict
- */
+//============================================================================
+// Name        : pinnacle.cpp
+// Author      : Shubham Rekkawar
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
 #include<iostream>
 #include<cstdio>
 using namespace std;
