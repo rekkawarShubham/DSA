@@ -5,7 +5,7 @@
 // Copyright   : Your copyright notice
 // Description : Hello World in C++, Ansi-style
 //============================================================================
-
+//Polynomial Operation like addition multiplication and evaluation and operator overloading
 #include <iostream>
 #include<cmath>
 using namespace std;
@@ -17,7 +17,6 @@ public:
 		int c[10],d[10];
 		int max;
 		int k=0;
-
 	Poly()
 	{
 		for(i=0;i<10;i++)
