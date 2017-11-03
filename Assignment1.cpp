@@ -62,11 +62,6 @@ for(i=0;i<bn;i++)
 					cout<<"\n\t"<<un[i];
 				}
 
-
-
-
-
-
 }
 void Set::neither()
 {
@@ -121,11 +116,9 @@ void Set::neither()
 				cout<<"\n\t"<<final[i];
 			}
 
-
-
-
-
 }
+
+
 void Set::intersect()
 {
 	k=0;
@@ -147,11 +140,6 @@ void Set::intersect()
 		}
 
 }
-
-
-
-
-
 
 
 void Set::input()
