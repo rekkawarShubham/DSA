@@ -37,6 +37,7 @@ PBALL balltail = NULL ;
 BALL* CreateNewBall ( int , int ) ;
 void DeleteBall ( int BallID ) ;
 void PreLoad () ;
+
 void PostLoad () ;
 int GetYourOption () ;
 
